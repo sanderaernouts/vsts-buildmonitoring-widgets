@@ -1,7 +1,7 @@
 {
   "manifestVersion": 1,
   "id": "buildmonitoring",
-  "version": "0.1.19",
+  "version": "0.1.35",
   "name": "build monitoring",
   "scopes": ["vso.build"],
   "description": "My extension makes hubs great again",
@@ -107,8 +107,8 @@
         "previewImageUrl": "static/images/logo.png",
         "supportedSizes": [
           {
-            "rowSpan": 4,
-            "columnSpan": 4
+            "rowSpan": 3,
+            "columnSpan": 8
           },
           {
             "rowSpan": 5,

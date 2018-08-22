@@ -30,3 +30,5 @@ node_modules
 .vscode
 *.vsix
 
+#chrome debugging extensions
+out/

@@ -5,3 +5,8 @@ body {
 span {
     font-style: italic;
 }
+
+div#query-info-container {
+    height: 100%;
+    width:100%;
+}

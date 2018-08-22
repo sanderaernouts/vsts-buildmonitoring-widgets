@@ -2,6 +2,7 @@
   "scripts": {
     "build": "npm run lint && npm run clean && npm run webpack",
     "webpack": "webpack --progress --colors --config webpack.config.js --output-path ./dist -p",
+    "static" : "cpx static/* dist/static && cpx node_modules/vss-web-extension-sdk/lib/* dist/lib",
     "postbuild": "npm run package",
     "package": "tfx extension create  --rev-version",
     "gallery-publish": "tfx extension publish --rev-version",
